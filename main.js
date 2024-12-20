@@ -446,6 +446,7 @@ async function fetchData(location) {
         card.innerHTML = `
             <p>${dateList[i][1]}</p>
             <img src="${imageURL}/${dateList[i][4]}.svg" alt="${dateList[i][3]}" class="forecast-icon">
+            <p>${dateList[i][3]}</p>
             <p>${dateList[i][5]}°C / ${dateList[i][6]}°C</p>
         `;
 
